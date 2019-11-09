@@ -1,0 +1,49 @@
+body {
+  background-color: lightgreen;
+  color: red;
+  text-align: center;
+}
+
+.container {
+  width: 1000px;
+  margin: 0 auto;
+}
+
+form {
+  width: 300px;
+  display: flex;
+  flex-direction: column;
+  margin: 0 auto;
+}
+
+form div {
+  margin: 15px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+form label {
+  text-transform: uppercase;
+  font-weight: bold;
+  margin: 5px;
+  font-size: 18px;
+}
+
+form div input {
+  flex: 1;
+  border: 2px dashed blue;
+  padding: 10px;
+}
+
+form div input[type="submit"] {
+  padding: 15px;
+  font-weight: bold;
+  color: orange;
+  background-color: lime;
+}
+
+form div input[type="submit"]:hover {
+  background-color: magenta;
+  cursor: pointer;
+}
