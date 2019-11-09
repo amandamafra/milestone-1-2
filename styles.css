@@ -47,3 +47,54 @@ form div input[type="submit"]:hover {
   background-color: magenta;
   cursor: pointer;
 }
+
+.introduction {
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  font-size: 26px;
+  font-weight: bolder;
+  transition: 0.3s font-size ease;
+  color: purple;
+}
+
+.introduction:hover {
+  font-size: 32px;
+  color: green;
+  transition: 0.1s font-size ease, 1s color ease, 2s background-color linear,
+    2s border linear;
+  background-color: royalblue;
+  border: 10px dotted gold;
+}
+
+.introduction1 {
+  font-family: "Courier New", Courier, monospace;
+  font-size: 26px;
+  font-weight: lighter;
+  transition: 0.3s font-size ease-in-out;
+  color: navy;
+}
+
+.introduction1:hover {
+  font-size: 32px;
+  color: hotpink;
+  transition: 0.1s font-size ease-in-out, 1s color ease-in-out,
+    2s background-color linear, 2s border linear;
+  background-color: rebeccapurple;
+  border: 5px double red;
+}
+
+.introduction2 {
+  font-family: fantasy;
+  font-size: xx-large;
+  font-weight: inherit;
+  transition: 0.5s font-size step-end;
+  color: magenta;
+}
+
+.introduction2.hover {
+  font-size: xx-small;
+  color: mediumturquoise;
+  transition: 0.4 font-size step-end, 1s color ease-in,
+    2s background-color linear, 3s border linear;
+  background-color: mintcream;
+  border: 2px solid blue;
+}
